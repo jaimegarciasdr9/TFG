@@ -281,7 +281,7 @@ def plot_diagnostics(model_fit, output_dir):
             line.set_color('blue')
         for patch in ax.patches:
             patch.set_color('blue')
-    plt.savefig(os.path.join(output_dir, "autocorrelacion_parcial_comparison.png"))
+    plt.savefig(os.path.join(output_dir, "diagnostics.png"))
     plt.close()
 
 
