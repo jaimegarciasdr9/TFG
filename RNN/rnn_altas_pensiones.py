@@ -1,4 +1,4 @@
-from lstm_essentials import (load_data,
+from rnn_essentials import (load_data,
                              check_missing_values,
                              create_output_dir,
                              rnn_model
