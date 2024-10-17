@@ -26,3 +26,11 @@ The data used in this project come from multiple public and reliable sources, in
 - Banco de España: Macroeconomic indicators, such as inflation rates and GDP growth, that impact pension sustainability.
 
 The data is preprocessed and transformed to fit the requirements of both ARIMA and RNN models.
+
+## Repository Structure
+📂 ARIMA/               # Contains notebooks and scripts for ARIMA model development
+📂 Análisis del dato/    # Data analysis, preprocessing, and feature engineering scripts
+📂 RNN/                 # Implementation of Recurrent Neural Networks (LSTM)
+.gitignore              # Specifies files to ignore in version control
+LICENSE                 # Licensing information
+README.md               # This README file
