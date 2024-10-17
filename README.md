@@ -39,3 +39,59 @@ The data is preprocessed and transformed to fit the requirements of both ARIMA a
 LICENSE                 # Licensing information
 
 README.md               # This README file
+
+## Key Folders
+ARIMA/: This directory includes notebooks and scripts for developing the ARIMA model. It contains time series analysis and model validation steps.
+
+Análisis del dato/: This folder contains scripts for data cleaning, preprocessing, and exploratory data analysis (EDA), which prepare the dataset for both ARIMA and RNN models.
+
+RNN/: The RNN folder focuses on the implementation of the LSTM-based recurrent neural network used for pension forecasting, alongside tuning and evaluation scripts.
+
+## Methodology
+1. Data Preprocessing
+
+Cleaning: Handled missing values and outliers.
+
+Feature Engineering: Created new variables such as age groupings and economic indicators.
+
+Normalization: Scaled the data to improve model performance.
+
+
+2. ARIMA Model
+
+ARIMA is used for short-term, linear time series forecasting. The model is trained after performing stationarity tests and parameter tuning using ACF/PACF plots and grid search for the best (p, d, q) values.
+
+3. Recurrent Neural Networks (RNN - LSTM)
+
+The RNN model, particularly an LSTM network, is designed to handle the non-linear and complex dependencies within time series data. This approach uses sequential input data to predict future trends more accurately for medium-term forecasts.
+
+## Evaluation Metrics
+Both models are evaluated using:
+
+- RMSE (Root Mean Square Error)
+
+- MAPE (Mean Absolute Percentage Error)
+
+- R-squared for goodness of fit.
+
+## Results
+ARIMA: Performs well in short-term predictions but struggles with longer-term patterns.
+
+RNN/LSTM: Outperforms ARIMA in medium-term forecasting due to its ability to model non-linear dependencies in time series.
+
+## Future Work
+- Expand data sources to include more recent trends and additional variables.
+
+- Test more advanced models, such as ensemble learning techniques or hybrid models combining ARIMA and RNN.
+
+- Scenario simulation: Use the models to simulate how different macroeconomic changes could impact pension sustainability.
+
+## Author
+Jaime García Sainz de Rozas
+
+Business Analytics & Data Science
+
+University Francisco de Vitoria, Madrid
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
