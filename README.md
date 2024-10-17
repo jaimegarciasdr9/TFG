@@ -29,8 +29,13 @@ The data is preprocessed and transformed to fit the requirements of both ARIMA a
 
 ## Repository Structure
 📂 ARIMA/               # Contains notebooks and scripts for ARIMA model development
+
 📂 Análisis del dato/    # Data analysis, preprocessing, and feature engineering scripts
+
 📂 RNN/                 # Implementation of Recurrent Neural Networks (LSTM)
+
 .gitignore              # Specifies files to ignore in version control
+
 LICENSE                 # Licensing information
+
 README.md               # This README file
